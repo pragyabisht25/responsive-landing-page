@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7f3ed">
+    <meta name="description" content="NudeNote helps you organize tasks, build daily habits and keep your thoughts in one peaceful space.">
+    <title>NudeNote — Make Room for What Matters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="landing-nav container" aria-label="Main navigation">
+            <a href="#home" class="brand">
+                <span class="brand-mark">n.</span>
+                <span>NudeNote</span>
+            </a>
+
+            <button class="mobile-menu" id="mobileMenu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a class="nav-link active" href="#home">Home</a>
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-cta" href="#workspace">Get Started <span>↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR SPACE, YOUR PACE</p>
+                    <h1>Make room for<br><span>what matters.</span></h1>
+                    <p class="hero-description">
+                        A calmer way to organize your day, build better habits,
+                        and keep all your thoughts in one beautiful place.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#workspace" class="button button-primary">Get Started <span>→</span></a>
+                        <a href="#features" class="button button-secondary">Explore Features <span>↓</span></a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span class="note-icon">✿</span>
+                        <p>Little steps. Gentle routines. Better days.</p>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal" aria-label="Illustration of a peaceful workspace">
+                    <div class="visual-orbit"></div>
+                    <div class="visual-sun"></div>
+                    <div class="visual-spark spark-one">✳</div>
+                    <div class="visual-spark spark-two">✦</div>
+                    <div class="visual-plant">
+                        <div class="plant-leaf leaf-a"></div>
+                        <div class="plant-leaf leaf-b"></div>
+                        <div class="plant-leaf leaf-c"></div>
+                        <div class="plant-stem"></div>
+                        <div class="plant-pot"></div>
+                    </div>
+                    <div class="floating-card floating-card-top">
+                        <span class="floating-icon">✓</span>
+                        <div><strong>One step at a time</strong><small>You're making progress</small></div>
+                    </div>
+                    <div class="floating-card floating-card-bottom">
+                        <span class="floating-icon flower-icon">✿</span>
+                        <div><strong>A little reminder</strong><small>Progress over perfection</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust-strip">
+            <div class="container trust-inner">
+                <span>MADE FOR EVERYDAY LIFE</span>
+                <span class="trust-divider"></span>
+                <p>Plan mindfully <b>·</b> Build consistency <b>·</b> Find your balance</p>
+            </div>
+        </section>
+
+        <section class="features section" id="features">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">A LITTLE MORE CLARITY</p>
+                    <h2>Everything you need,<br><span>nothing you don't.</span></h2>
+                    <p>Simple tools to help your everyday feel a little lighter.</p>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="feature-card reveal">
+                        <div class="feature-icon feature-rose">✓</div>
+                        <p class="feature-number">01 / PLAN</p>
+                        <h3>Your daily priorities</h3>
+                        <p>Add tasks, track what's complete, and focus on what deserves your attention today.</p>
+                        <a href="#workspace" class="feature-link">Organize your day <span>↗</span></a>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon feature-sage">✿</div>
+                        <p class="feature-number">02 / GROW</p>
+                        <h3>Habits that feel good</h3>
+                        <p>Check off small daily rituals and build a routine at your own pace.</p>
+                        <a href="#workspace" class="feature-link">Build your routine <span>↗</span></a>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon feature-sand">✎</div>
+                        <p class="feature-number">03 / REFLECT</p>
+                        <h3>A home for your thoughts</h3>
+                        <p>Capture ideas, save little reminders, and make space for what's on your mind.</p>
+                        <a href="#workspace" class="feature-link">Write a little <span>↗</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section section" id="about">
+            <div class="container about-grid">
+                <div class="about-art reveal" aria-hidden="true">
+                    <div class="about-circle"></div>
+                    <div class="about-flower">✿</div>
+                    <div class="about-small-circle"></div>
+                    <span class="about-word">breathe.</span>
+                </div>
+                <div class="about-copy reveal">
+                    <p class="eyebrow">A GENTLER WAY TO GET THINGS DONE</p>
+                    <h2>You don't have to<br>do it all <span>today.</span></h2>
+                    <p>Some days are for getting things done. Others are for taking a breath. NudeNote gives you a simple place to plan, reflect, and celebrate the little things along the way.</p>
+                    <a href="#workspace" class="button button-primary">Make a little progress <span>→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="workspace section" id="workspace">
+            <div class="container">
+                <div class="workspace-heading">
+                    <div>
+                        <p class="eyebrow">YOUR PERSONAL SPACE</p>
+                        <h2>Let's make today count.</h2>
+                        <p>Start with one small thing. The rest can follow.</p>
+                    </div>
+                    <a href="#home" class="back-to-top">Back to top ↑</a>
+                </div>
+
+                <div class="stats-grid" aria-label="Daily progress">
+                    <article class="stat-card">
+                        <div class="stat-top"><span class="stat-icon icon-rose">✓</span><span class="stat-label">Today's tasks</span></div>
+                        <h3 id="taskCount">0 <span>/ 0</span></h3>
+                        <p>Little steps add up.</p>
+                    </article>
+                    <article class="stat-card">
+                        <div class="stat-top"><span class="stat-icon icon-sage">✿</span><span class="stat-label">Habits completed</span></div>
+                        <h3 id="habitCount">0 <span>/ 4</span></h3>
+                        <p>Consistency over perfection.</p>
+                    </article>
+                    <article class="stat-card progress-stat">
+                        <div class="stat-top"><span class="stat-icon icon-sand">◷</span><span class="stat-label">Daily progress</span></div>
+                        <h3 id="progressPercent">0%</h3>
+                        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+                        <p>Every effort counts.</p>
+                    </article>
+                </div>
+
+                <div class="dashboard-grid">
+                    <section class="panel tasks-panel" id="tasks">
+                        <div class="panel-heading">
+                            <div><p class="eyebrow">YOUR PRIORITIES</p><h3>Today's tasks</h3></div>
+                            <span class="heading-decoration">✳</span>
+                        </div>
+
+                        <form class="task-form" id="taskForm">
+                            <input type="text" id="taskInput" placeholder="What would you like to get done?" maxlength="120" aria-label="New task" required>
+                            <button type="submit" aria-label="Add task">+</button>
+                        </form>
+
+                        <div class="task-filters" aria-label="Filter tasks">
+                            <button type="button" class="filter-btn active" data-filter="all">All</button>
+                            <button type="button" class="filter-btn" data-filter="pending">To do</button>
+                            <button type="button" class="filter-btn" data-filter="completed">Completed</button>
+                        </div>
+
+                        <div class="task-list" id="taskList"></div>
+                        <div class="task-footer"><span id="taskFooterText">A fresh start awaits.</span><button type="button" id="clearCompleted">Clear completed</button></div>
+                    </section>
+
+                    <div class="right-column">
+                        <section class="panel habits-panel" id="habits">
+                            <div class="panel-heading">
+                                <div><p class="eyebrow">SMALL DAILY RITUALS</p><h3>Daily habits</h3></div>
+                                <span class="heading-decoration">♡</span>
+                            </div>
+                            <p class="panel-description">Build a routine that feels good to you.</p>
+
+                            <div class="habit-list">
+                                <label class="habit-item">
+                                    <span class="habit-emoji">💧</span>
+                                    <span class="habit-info"><strong>Drink enough water</strong><small>Take care of yourself</small></span>
+                                    <input type="checkbox" class="habit-check" value="water"><span class="custom-check"></span>
+                                </label>
+                                <label class="habit-item">
+                                    <span class="habit-emoji">📖</span>
+                                    <span class="habit-info"><strong>Read a little</strong><small>Grow your mind</small></span>
+                                    <input type="checkbox" class="habit-check" value="reading"><span class="custom-check"></span>
+                                </label>
+                                <label class="habit-item">
+                                    <span class="habit-emoji">🧘</span>
+                                    <span class="habit-info"><strong>Take a mindful break</strong><small>Give yourself a moment</small></span>
+                                    <input type="checkbox" class="habit-check" value="mindful"><span class="custom-check"></span>
+                                </label>
+                                <label class="habit-item">
+                                    <span class="habit-emoji">🚶</span>
+                                    <span class="habit-info"><strong>Move your body</strong><small>Any movement counts</small></span>
+                                    <input type="checkbox" class="habit-check" value="movement"><span class="custom-check"></span>
+                                </label>
+                            </div>
+                            <div class="habit-message" id="habitMessage">Every little effort matters.</div>
+                        </section>
+
+                        <section class="panel notes-panel" id="notes">
+                            <div class="panel-heading">
+                                <div><p class="eyebrow">A SPACE FOR YOUR THOUGHTS</p><h3>Quick notes</h3></div>
+                                <span class="heading-decoration">✎</span>
+                            </div>
+                            <p class="panel-description">Write down an idea or anything you want to remember.</p>
+                            <textarea id="notesInput" placeholder="Today, I'm thinking about..." maxlength="3000" aria-label="Your personal notes"></textarea>
+                            <div class="notes-footer"><span id="notesStatus" role="status">Saved on this device</span><span id="characterCount">0 / 3000</span></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a href="#home" class="brand footer-brand"><span class="brand-mark">n.</span><span>NudeNote</span></a>
+            <p>Take it one day at a time <span>♡</span></p>
+            <p>© <span id="year">2026</span> NudeNote</p>
+        </div>
+    </footer>
+</body>
+</html>
